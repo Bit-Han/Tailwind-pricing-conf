@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+    <title>Tailwind Pricing Component</title>
+</head>
+
+<body class="h-full py-16 antialiased bg-primary-very-light font-sans">
+    <header class="flex flex-col items-center mb-12">
+        <h2 class="text-3xl text-primary-normal font-bold">Plan and Pricing</h2>
+        <div class="pt-8 w-3/5 lg:w-1/5 flex justify-around ">
+            <p class="text-sm text-gray-500 font-bold mt-2">Monthly</p>
+            <div>
+                <label for="toggle" class="relative">
+                    <input type="checkbox" name="toggle" id="" class="hidden" />
+                    <div class="absolute w-16 h-8 rounded-full shadow-inner inset-y-0 bg-purple-500 "
+                      ></div>
+                    <div class="absolute w-6 h-6 bg-white rounded-full shadow inset-y-0 mt-1 ml-1 "></div>
+                </label>
+            </div>
+            <p class="text-sm text-gray-500 font-bold mt-2 ml-16">Annually</p>
+        </div>
+    </header>
+    <section class="flex flex-col lg:flex-row items-start items-center lg:justify-center w-full w-full lg:px-10 py-12 ">
+        <article class="bg-white w-4/5 lg:w-custom mb-10 lg:px-4 px-6 py-10 text-center text-primary-dark rounded-lg">
+            <h5 class="font-bold text-base text-2xl">Free</h5>
+            <h2 class="pb-4 flex justify-center font-bold ">
+                <span class="text-3xl mt-6 mr-1"></span><span class="text-6xl"> $0</span>
+            </h2>
+            <ul class="text-sm font-bold">
+                <li class="pt-4 pb-4 text-primary-dark">2500 templates and designs</li>
+                <li class="pt-3 pb-4 text-primary-dark">2 Users Allowed</li>
+                <li class="pt-4 pb-4 text-primary-dark">500GB Storage</li>
+            </ul>
+            <button
+                class=" uppercase text-center text-sm mt-12 xl:px-24 px-12 sm:px-16 py-2 font-bold text-primary-very-light rounded-md bg-purple-500"
+        >
+                Get Started
+            </button>
+        </article>
+        <article class="lg:w-custom w-4/5 mb-10 px-6 py-16 lg:-mt-6 text-white text-center rounded-lg bg-purple-500"
+ >
+            <h5 class="font-bold text-base text-2xl">Team</h5>
+            <h2 class="font-bold pb-4 mt-2 flex justify-center">
+                <span class="text-3xl mt-6 mr-1"></span><span class="text-6xl "> $29.99</span>
+            </h2>
+            <ul class=" text-sm font-bold">
+                <li class="pt-4 pb-4">5000 template and designs</li>
+                <li class="pt-4 pb-4">20 Users Allowed</li>
+                <li class="pt-4 pb-4 ">1 TB Storage</li>
+            </ul>
+            <button
+                class="uppercase text-center text-sm mt-10 xl:px-24 px-12 sm:px-16 py-2 rounded-md font-bold bg-primary-very-light text-primary-blue">
+                Get Started
+            </button>
+        </article>
+        <article class="bg-white w-4/5 lg:w-custom mb-10 lg:px-4 px-6 py-10 text-center text-primary-dark rounded-lg">
+            <h5 class="font-bold text-base text-2xl">Enterprise</h5>
+            <h2 class="flex justify-center pb-4 font-bold">
+                <span class="text-3xl mt-6 mr-1"></span><span class="text-6xl">$49.99</span>
+            </h2>
+            <ul class="text-sm font-bold">
+                <li class="pt-4 pb-4 ">unlimited number of template and designs</li>
+                <li class="pt-4 pb-4 ">50 Users Allowed</li>
+                <li class="pt-4 pb-4 ">2 TB Storage</li>
+            </ul>
+            <button
+                class="uppercase text-center text-sm mt-12 xl:px-24 px-12 sm:px-16 py-2 rounded-md font-bold text-primary-very-light bg-purple-500"
+   >
+                Get Started
+            </button>
+        </article>
+    </section>
+</body>
+
+</html>
