@@ -56,6 +56,8 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 You can check out some blog posts that help explain these better below
 
+You can check out some blog posts that help explain these better below
+
 - [Tailwind animation-How to create Tailwind CSS Animation](https://www.devwares.com/blog/create-animation-with-tailwind-css/)
 - [Tailwind grid-How to use tailwind CSS grid templates in your project](https://www.devwares.com/blog/how-to-add-tailwind-css-grid-to-your-project/)
 - [How to create a Beautiful Responsive Navigation bar Using Tailwind CSS](https://www.devwares.com/blog/how-to-create-a-beautiful-responsive-navbar-using-tailwind-css/)
@@ -75,5 +77,6 @@ You can check out some blog posts that help explain these better below
 - [Differences between Tailwind CSS and SASS](https://www.devwares.com/blog/differences-between-tailwind-css-and-sass/)
 - [Differences Between Tailwind CSS and Bootstrap](https://www.devwares.com/blog/diffrences-between-tailwind-css-and-bootstrap/)
 - [10 Awesome projects built with Tailwind CSS](https://www.devwares.com/blog/awesome-10-projects-built-with-tailwind/)
+- [How to use Tailwind css Width](https://www.devwares.com/blog/Tailwind-width/)
 
 Thank you!
